@@ -15,14 +15,14 @@
             </p>
             <fieldset>
                 <div class="form-block">
-                    <label for="name">
+                    <label for="name" id="name-label">
                         Enter your registration number: 
                         <input type="text" placeholder="ex: m1ss3d74rg37" 
                         id="name" name="name" required />
                     </label>
                 </div>
                 <div class="form-block">
-                    <label for="email">
+                    <label for="email" id="email-label">
                         Enter your Holonet address: 
                         <input type="email" 
                         placeholder="ex: m1ss3d74rg37@deathstar.org" id="email" 
@@ -30,7 +30,7 @@
                     </label>
                 </div>
                 <div class="form-block">
-                    <label for="number">
+                    <label for="number" id="number-label">
                         Enter your seniority in the Imperial forces (in years):
                         <input type="number" min="0" max="10" 
                         placeholder="ex: 1" id="number" name="number" 
@@ -40,10 +40,10 @@
             </fieldset>
             <fieldset>
                 <div class="form-block">
-                    <label for="corp">
+                    <label>
                         In which of the Imperial Army Corps do you actually 
                         serve?
-                        <select id="dropdown corp">
+                        <select id="dropdown">
                             <option value>(Select one)</option>
                             <option value="1">Stormtrooper Corps</option>
                             <option value="2">Imperial Navy</option>
@@ -71,7 +71,7 @@
                     </label>
                 </div>
                 <div class="form-block">
-                    <label for="referrer">
+                    <label>
                         How did you here about our product?
                         <select id="referrer">
                             <option value>(Select one)</option>
@@ -99,7 +99,7 @@
                     </label>
                     <label>
                         <input type="checkbox" name="other-products" 
-                        alue="dc15s" class="inline"  />
+                        value="dc15s" class="inline"  />
                         DC-15S
                     </label>
                     <label>
