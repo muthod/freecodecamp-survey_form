@@ -6,100 +6,127 @@
         <title>BlasTech Industries product survey</title>
     </head>
     <body>
-        <h1 id="title">BlasTech Industries product survey</h1>
-        <p id="description">
-            In order to continuously improve our products we ask you to answer 
-            this short survey about your recent purchase of the E11 Blaster 
-            Rifle by BasTech Industries.
-        </p>
         <form id="survey-form">
+            <h1 id="title">BlasTech Industries product survey</h1>
+            <p id="description">
+                In order to continuously improve our products please fill out 
+                this survey about your recent purchase of the E11 Blaster 
+                Rifle by BlasTech Industries.
+            </p>
             <fieldset>
-                <label for="name">
-                    Enter your registration number 
-                    <input type="text" placeholder="ex: m1ss3d74rg37" 
-                    id="name" name="name" required />
-                </label>
-                <label for="email">
-                    Enter your Holonet adress 
-                    <input type="email" 
-                    placeholder="ex: m1ss3d74rg37@deathstar.org" id="email" 
-                    name="email" required />
-                </label>
-                <label for="number">
-                    Enter your seniority in the Imperial forces (in years)
-                    <input type="number" min="0" max="10" placeholder="ex: 1" 
-                    id="number" name="number" required />
-                </label>
+                <div class="form-block">
+                    <label for="name">
+                        Enter your registration number: 
+                        <input type="text" placeholder="ex: m1ss3d74rg37" 
+                        id="name" name="name" required />
+                    </label>
+                </div>
+                <div class="form-block">
+                    <label for="email">
+                        Enter your Holonet address: 
+                        <input type="email" 
+                        placeholder="ex: m1ss3d74rg37@deathstar.org" id="email" 
+                        name="email" required />
+                    </label>
+                </div>
+                <div class="form-block">
+                    <label for="number">
+                        Enter your seniority in the Imperial forces (in years):
+                        <input type="number" min="0" max="10" 
+                        placeholder="ex: 1" id="number" name="number" 
+                        required />
+                    </label>
+                </div>
             </fieldset>
             <fieldset>
-                <p>In which army Corps do you actually serve?</p>
-                <select id="dropdown">
-                    <option>Stormtrooper Corps</option>
-                    <option>Imperial Navy</option>
-                    <option>Intelligence services</option>
-                </select>
-                <p>Would you recommend our product to a Imperial forces 
-                    colleague?</p>
-                <label>
-                    <input type="radio" name="recommend" value="definitely" 
-                    checked/>"Definitely"
-                </label>
-                <label>
-                    <input type="radio" name="recommend" value="maybe" />
-                    "Maybe"
-                </label>
-                <label>
-                    <input type="radio" name="recommend" value="not-sure" />
-                    "Not sure"
-                </label>
-                <p>How did you here about our product?</p>
-                <select id="dropdown">
-                    <option>Holonet advertisment</option>
-                    <option>Imperial Academy former</option>
-                    <option>Imperial forces colleague</option>
-                    <option>Other</option>
-                </select>
-                <p>
-                    Did you use any of our other products? 
-                    (check all that apply)
-                </p>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    value="dc15-rifle" />
-                    DC-15A Blaster Rifle
-                </label>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    value="dc15-carbine" />
-                    DC-15A Blaster Carbine
-                </label>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    alue="dc15s" />
-                    DC-15S
-                </label>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    value="dc15x-sniper" />
-                    DC-15X Sniper Rifle
-                </label>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    value="dc17-blaster" />
-                    DC-17 Hand Blaster
-                </label>
-                <label>
-                    <input type="checkbox" name="other-products" 
-                    value="dc17-m" />
-                    DC-17M Interchangeable Weapon System
-                </label>
+                <div class="form-block">
+                    <label for="corp">
+                        In which of the Imperial Army Corps do you actually 
+                        serve?
+                        <select id="dropdown corp">
+                            <option value>(Select one)</option>
+                            <option value="1">Stormtrooper Corps</option>
+                            <option value="2">Imperial Navy</option>
+                            <option value="3">Intelligence services</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-block">
+                    <p>Would you recommend our product to a Imperial forces 
+                        colleague?</p>
+                    <label>
+                        <input type="radio" name="recommend" value="definitely" 
+                        class="inline" checked />
+                        Definitely
+                    </label>
+                    <label>
+                        <input type="radio" name="recommend" value="maybe" 
+                        class="inline" />
+                        Maybe
+                    </label>
+                    <label>
+                        <input type="radio" name="recommend" value="not-sure" 
+                        class="inline" />
+                        Not sure
+                    </label>
+                </div>
+                <div class="form-block">
+                    <label for="referrer">
+                        How did you here about our product?
+                        <select id="referrer">
+                            <option value>(Select one)</option>
+                            <option value="1">Holonet advertisment</option>
+                            <option value="2">Imperial Academy former</option>
+                            <option value="3">Imperial forces colleague</option>
+                            <option value="4">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-block">
+                    <p>
+                        Did you use any of our other products? 
+                        (check all that apply)
+                    </p>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        value="dc15-rifle" class="inline" />
+                        DC-15A Blaster Rifle
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        value="dc15-carbine" class="inline"  />
+                        DC-15A Blaster Carbine
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        alue="dc15s" class="inline"  />
+                        DC-15S
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        value="dc15x-sniper" class="inline"  />
+                        DC-15X Sniper Rifle
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        value="dc17-blaster" class="inline"  />
+                        DC-17 Hand Blaster
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other-products" 
+                        value="dc17-m" class="inline"  />
+                        DC-17M Interchangeable Weapon System
+                    </label>
+                </div>
             </fieldset>
             <fieldset>
-                <label for="comments">
-                    Did you have any additional comments?
-                    <input type="textarea" placeholder="Comments" id="comments"
-                    name="comments" />
-                </label>
+                <div class="form-block">
+                    <label for="comments">
+                        Did you have any additional comments?
+                        <textarea placeholder="Comments" id="comments"
+                        name="comments" rows="3" cols="30"></textarea>
+                    </label>
+                </div>
             </fieldset>
             <input type="submit" id="submit" />
         </form>

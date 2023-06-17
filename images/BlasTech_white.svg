@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="600"
+   height="600"
+   id="svg2"
+   sodipodi:docname="BlasTech_white.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.2816667"
+     inkscape:cx="299.60988"
+     inkscape:cy="300.39012"
+     inkscape:window-width="1920"
+     inkscape:window-height="935"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2260" />
+  <defs
+     id="defs4" />
+  <g
+     transform="translate(-236.5,129.625)"
+     id="layer1">
+    <g
+       transform="matrix(2.5210084,0,0,2.5210084,-359.71849,-715.44433)"
+       id="g2260">
+      <path
+         d="M 439.64571,267.22929 L 355.5221,292.26529 L 271.35429,267.22929 L 296.41239,351.375 L 271.35429,435.52071 L 355.5,410.46261 L 439.64571,435.52071 L 414.60971,351.3529 L 439.64571,267.22929 z M 428.02264,278.85236 L 389.55161,351.3529 L 428.00054,423.87554 L 355.5,385.40451 L 282.99946,423.87554 L 321.47049,351.375 L 282.99946,278.87446 L 355.5221,317.32339 L 428.02264,278.85236 z "
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path2258" />
+      <path
+         d="M 355.5,232.375 L 313.71875,309.5625 L 236.5,351.375 L 313.71875,393.15625 L 355.5,470.375 L 397.28125,393.15625 L 474.5,351.375 L 397.28125,309.5625 L 355.5,232.375 z M 355.5,248.8125 L 379.5625,327.28125 L 458.03125,351.375 L 379.5625,375.4375 L 355.5,453.90625 L 331.4375,375.4375 L 252.96875,351.375 L 331.4375,327.28125 L 355.5,248.8125 z "
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         id="path2253" />
+    </g>
+  </g>
+</svg>
